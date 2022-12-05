@@ -1,0 +1,201 @@
+  /* Google Fonts - Poppins */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+  
+body {
+  background: #E6E8E9; /*15202b*/;
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #151719;
+  left: -200px;
+  transition: all 500ms linear;
+}
+
+#sidebar.active {
+  left: 0px;
+}
+
+#sidebar ul li {
+  color: rgba(230, 230, 230, .9);
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(100, 100, 100, .3);
+  text-align: center;
+}
+
+.logo {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto; 
+}
+
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 230px;
+  top: 20px;
+  cursor: pointer;
+}
+
+#sidebar .toggle-btn span {
+  display: block;
+  width: 40px;
+  text-align: center;
+  font-size: 30px;
+  border: 3px solid #000;
+}
+
+.avator {
+  border-radius: 100px;
+  width: 60px;
+  margin-right: 15px;
+}
+
+.card {
+  border: none;
+}
+
+.card-header {
+  background-color: #d89c71 ;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+}
+
+#main {
+  justify-content: center;
+}
+
+#inputBindevArea {
+  border-radius: 20px;
+}
+
+#leftBtn {
+  width: 50%;
+  text-align: left;
+  padding: 0;
+}
+
+#rightBtn {
+  width: 50%;
+  text-align: right;
+  padding: 0;
+}
+
+.bindev-wrap {
+  max-width: 490px;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 3px;
+  padding: 30px;
+  border-bottom: 1px solid #e6ecf0;
+  border-top: 1px solid #e6ecf0;
+}
+
+.bindev-header {
+  display: flex;
+  align-items: flex-start;
+  font-size: 14px;
+}
+
+.bindev-header-info {
+  font-weight: bold;
+}
+
+.bindev-header-info span {
+  color: #657786;
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.bindev-header-info p {
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+.bindev-img-wrap {
+  padding-left: 60px;
+}
+
+.bindev-info-counts {
+  display: flex;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.bindev-info-counts div {
+  display: flex;
+  margin-right: 20px;
+}
+
+.bindev-info-counts div svg {
+  color: #657786;
+  margin-right: 10px;
+}
+
+@media screen and (max-width:430px) {
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .bindev-header {
+    flex-direction: column;
+  }
+  .bindev-header img {
+    margin-bottom: 20px;
+  }
+  .bindev-header-info p {
+    margin-bottom: 30px;
+  }
+  .bindev-img-wrap {
+    padding-left: 0;
+  }
+  .bindev-info-counts {
+    display: flex;
+    margin-left: 0;
+  }
+  .bindev-info-counts div {
+    margin-right: 10px;
+  }
+}
+
+.btn {
+  background-color: #eba817ea  ;
+  border-style: none;
+  font-weight: bold;
+  color: white;
+}
+
+#charBadge {
+  background-color: #260e42  ;
+  position: relative;
+  left: -8px;
+  font-size: 1rem;
+  height: 100%;
+}
+
+a:link {
+  color: #d45105 ;
+  text-decoration: none;
+}
+a {
+  color : #ee9454 ;
+}
+a:hover {
+  color: #ad886d ;
+}
+
+.btn:hover {
+  background-color: #ada29a;
+  color: white;
+}
+
